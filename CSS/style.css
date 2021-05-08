@@ -1,0 +1,260 @@
+/* import font */
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+li, a {
+    color: #b6b8bd;
+    font-family: 'Roboto';
+    font-size: 15px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10%;
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-list li a:hover {
+    color: #797979;
+}
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+    /* background-color: #292c34; */
+    background-image: url(../Bahan/Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero-text {
+    font-family: 'Roboto';
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 230px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+  .tombol {
+    position: relative;
+    top: 50px;
+    background-color: #fb6e52;
+    color: white;
+    border: 1.5px solid #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    margin: 500px 200px;
+    padding: 14px 40px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+  .tombol:hover {
+    color: #292c34;
+    background-color: #aa4733;
+  }
+
+/* Fitur */
+.fitur {
+    width: 100%;
+    height: 880px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.row {
+    padding: 80px 60px;
+}
+
+.box {
+    display:block;
+    float:left;
+    width:33.333333%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+    text-align:center;
+    color: #000000;
+}
+
+.box h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+    color: #999c9c;
+}
+
+.box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #b3b6b6;
+}
+
+.box img {
+    border: 0;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.quotes {
+    font-family: 'Roboto:ital,wght@1,300';
+    font-size: 30px;
+    color: #fb6e52;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    padding: 0 220px;
+}
+
+.box2 {
+    display:block;
+    float:left;
+    width:19%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 0 10px;
+    color: #000000;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.box2 img {
+    border : 0;
+    vertical-align: middle;
+    width: 320px;
+    height: 250px;
+    text-align: center;
+}
+
+.box2 h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 15px 0;
+    color: #555757;
+    margin-left: 100px;
+}
+
+.box2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #b3b6b6;
+    margin-right: -100px;
+}
+
+/* Artikel */
+.artikel {
+    width: 100%;
+    height: 890px;
+    display: inline-block;
+    background-color: #f9f9f9;
+}
+
+.artikel-text {
+    font-family: 'Roboto';
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 65px 0;
+    color: #555757;
+}
+
+.box3 {
+    display:block;
+    float:left;
+    width:39%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 0 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.box3 img {
+    border : 0;
+    width: 500px;
+    height: 520px;
+    text-align: left;
+    float: left;
+}
+
+.box3 h3 {
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 550px;
+    color: #fb6e52;
+    text-align: left;
+}
+
+.box3 p {
+    font-family: 'Roboto';
+    font-size: 13pt;
+    color: #b3b6b6;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 40px 160px;
+    background-color: #292c34;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-sosmed{
+    float: right;
+    margin: -25px 25px;
+}
+
+.footer-sosmed a {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.logo2 {
+    width: 50px;
+    height: 50px;
+    margin: -15px;
+    float: left;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    padding: 2px 65px;
+    color: #797c82;
+}
